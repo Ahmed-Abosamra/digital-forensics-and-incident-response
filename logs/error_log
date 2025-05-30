@@ -1,0 +1,194 @@
+[Sun May 25 13:43:36.184162 2025] [ssl:warn] [pid 63166] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 13:43:36.184203 2025] [ssl:warn] [pid 63166] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 13:43:36.184250 2025] [suexec:notice] [pid 63166] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Sun May 25 13:43:36.205420 2025] [ssl:warn] [pid 63167] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 13:43:36.205433 2025] [ssl:warn] [pid 63167] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 13:43:36.205496 2025] [lbmethod_heartbeat:notice] [pid 63167] AH02282: No slotmem from mod_heartmonitor
+[Sun May 25 13:43:36.213784 2025] [mpm_prefork:notice] [pid 63167] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Sun May 25 13:43:36.213804 2025] [core:notice] [pid 63167] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Sun May 25 16:08:00.136863 2025] [mpm_prefork:notice] [pid 63167] AH00169: caught SIGTERM, shutting down
+[Sun May 25 16:08:02.440864 2025] [ssl:warn] [pid 136957] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 16:08:02.440901 2025] [ssl:warn] [pid 136957] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 16:08:02.440946 2025] [suexec:notice] [pid 136957] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Sun May 25 16:08:02.460121 2025] [ssl:warn] [pid 136958] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 16:08:02.460138 2025] [ssl:warn] [pid 136958] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 16:08:02.460197 2025] [lbmethod_heartbeat:notice] [pid 136958] AH02282: No slotmem from mod_heartmonitor
+[Sun May 25 16:08:02.468920 2025] [mpm_prefork:notice] [pid 136958] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Sun May 25 16:08:02.468943 2025] [core:notice] [pid 136958] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Sun May 25 16:08:03.877672 2025] [autoindex:error] [pid 136971] [client 127.0.0.1:42054] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 16:08:04.702911 2025] [autoindex:error] [pid 136971] [client 127.0.0.1:42054] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 16:08:51.528040 2025] [mpm_prefork:notice] [pid 136958] AH00169: caught SIGTERM, shutting down
+[Sun May 25 16:08:54.874645 2025] [ssl:warn] [pid 137913] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 16:08:54.874680 2025] [ssl:warn] [pid 137913] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 16:08:54.874722 2025] [suexec:notice] [pid 137913] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Sun May 25 16:08:54.893683 2025] [ssl:warn] [pid 137914] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun May 25 16:08:54.893728 2025] [ssl:warn] [pid 137914] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun May 25 16:08:54.893802 2025] [lbmethod_heartbeat:notice] [pid 137914] AH02282: No slotmem from mod_heartmonitor
+[Sun May 25 16:08:54.904178 2025] [mpm_prefork:notice] [pid 137914] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Sun May 25 16:08:54.904204 2025] [core:notice] [pid 137914] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Sun May 25 16:08:55.701209 2025] [autoindex:error] [pid 137921] [client 127.0.0.1:60616] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 16:08:56.305852 2025] [autoindex:error] [pid 137921] [client 127.0.0.1:60616] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 16:08:56.493673 2025] [autoindex:error] [pid 137921] [client 127.0.0.1:60616] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 16:08:56.667282 2025] [autoindex:error] [pid 137921] [client 127.0.0.1:60616] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Sun May 25 17:24:04.470628 2025] [autoindex:error] [pid 138204] [client 127.0.0.1:50054] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Mon May 26 00:45:07.453192 2025] [php:error] [pid 137921] [client 127.0.0.1:47056] script '/opt/lampp/htdocs/contact.php' not found or unable to stat
+[Mon May 26 00:45:15.151085 2025] [php:error] [pid 138204] [client 127.0.0.1:43720] script '/opt/lampp/htdocs/contact.php' not found or unable to stat
+[Mon May 26 01:54:43.739790 2025] [auth_basic:error] [pid 138204] [client 127.0.0.1:58814] AH01618: user  not found: /phpmyadmin/
+[Mon May 26 01:56:36.735536 2025] [auth_basic:error] [pid 137922] [client 127.0.0.1:56828] AH01617: user myadminuser: authentication failure for "/phpmyadmin/": Password Mismatch
+[Mon May 26 03:49:46.250238 2025] [ssl:warn] [pid 2631] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 03:49:46.250649 2025] [ssl:warn] [pid 2631] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 03:49:46.250721 2025] [suexec:notice] [pid 2631] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 03:49:46.272215 2025] [ssl:warn] [pid 2632] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 03:49:46.272231 2025] [ssl:warn] [pid 2632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 03:49:46.272300 2025] [lbmethod_heartbeat:notice] [pid 2632] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 03:49:46.312377 2025] [mpm_prefork:notice] [pid 2632] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 03:49:46.312410 2025] [core:notice] [pid 2632] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 07:04:12.605717 2025] [php:error] [pid 3031] [client 127.0.0.1:41988] script '/opt/lampp/htdocs/flag.php' not found or unable to stat
+[Mon May 26 09:31:19.375815 2025] [ssl:warn] [pid 6953] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 09:31:19.376223 2025] [ssl:warn] [pid 6953] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 09:31:19.376303 2025] [suexec:notice] [pid 6953] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 09:31:19.399184 2025] [ssl:warn] [pid 6954] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 09:31:19.399199 2025] [ssl:warn] [pid 6954] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 09:31:19.399277 2025] [lbmethod_heartbeat:notice] [pid 6954] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 09:31:19.446281 2025] [mpm_prefork:notice] [pid 6954] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 09:31:19.446360 2025] [core:notice] [pid 6954] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 10:31:04.211446 2025] [mpm_prefork:notice] [pid 6954] AH00169: caught SIGTERM, shutting down
+[Mon May 26 10:31:07.547083 2025] [ssl:warn] [pid 37625] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:31:07.547129 2025] [ssl:warn] [pid 37625] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:31:07.547208 2025] [suexec:notice] [pid 37625] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 10:31:07.566949 2025] [ssl:warn] [pid 37626] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:31:07.566969 2025] [ssl:warn] [pid 37626] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:31:07.567061 2025] [lbmethod_heartbeat:notice] [pid 37626] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 10:31:07.579321 2025] [mpm_prefork:notice] [pid 37626] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 10:31:07.579345 2025] [core:notice] [pid 37626] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 10:36:16.340293 2025] [mpm_prefork:notice] [pid 37626] AH00169: caught SIGTERM, shutting down
+[Mon May 26 10:36:18.655606 2025] [ssl:warn] [pid 40773] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:36:18.655664 2025] [ssl:warn] [pid 40773] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:36:18.655711 2025] [suexec:notice] [pid 40773] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 10:36:18.674769 2025] [ssl:warn] [pid 40774] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:36:18.674787 2025] [ssl:warn] [pid 40774] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:36:18.674847 2025] [lbmethod_heartbeat:notice] [pid 40774] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 10:36:18.687397 2025] [mpm_prefork:notice] [pid 40774] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 10:36:18.687421 2025] [core:notice] [pid 40774] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 10:51:08.761045 2025] [ssl:warn] [pid 2379] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:51:08.761322 2025] [ssl:warn] [pid 2379] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:51:08.761376 2025] [suexec:notice] [pid 2379] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 10:51:08.781094 2025] [ssl:warn] [pid 2380] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 10:51:08.781107 2025] [ssl:warn] [pid 2380] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 10:51:08.781164 2025] [lbmethod_heartbeat:notice] [pid 2380] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 10:51:08.842545 2025] [mpm_prefork:notice] [pid 2380] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 10:51:08.842570 2025] [core:notice] [pid 2380] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 12:23:07.150096 2025] [ssl:warn] [pid 5228] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:23:07.150493 2025] [ssl:warn] [pid 5228] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:23:07.150559 2025] [suexec:notice] [pid 5228] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:23:07.169681 2025] [ssl:warn] [pid 5229] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:23:07.169698 2025] [ssl:warn] [pid 5229] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:23:07.169736 2025] [lbmethod_byrequests:emerg] [pid 5229] AH10152: mod_proxy must be loaded for mod_lbmethod_byrequests
+[Mon May 26 12:23:07.169739 2025] [:emerg] [pid 5229] AH00020: Configuration Failed, exiting
+[Mon May 26 12:23:31.909469 2025] [ssl:warn] [pid 5786] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:23:31.909506 2025] [ssl:warn] [pid 5786] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:23:31.909539 2025] [suexec:notice] [pid 5786] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:23:31.926614 2025] [ssl:warn] [pid 5787] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:23:31.926633 2025] [ssl:warn] [pid 5787] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:23:31.926669 2025] [lbmethod_byrequests:emerg] [pid 5787] AH10152: mod_proxy must be loaded for mod_lbmethod_byrequests
+[Mon May 26 12:23:31.926672 2025] [:emerg] [pid 5787] AH00020: Configuration Failed, exiting
+[Mon May 26 12:25:21.444333 2025] [ssl:warn] [pid 6759] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:21.444379 2025] [ssl:warn] [pid 6759] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:21.444415 2025] [suexec:notice] [pid 6759] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:25:21.460763 2025] [ssl:warn] [pid 6760] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:21.460782 2025] [ssl:warn] [pid 6760] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:21.460817 2025] [lbmethod_byrequests:emerg] [pid 6760] AH10152: mod_proxy must be loaded for mod_lbmethod_byrequests
+[Mon May 26 12:25:21.460820 2025] [:emerg] [pid 6760] AH00020: Configuration Failed, exiting
+[Mon May 26 12:25:25.785230 2025] [ssl:warn] [pid 6994] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:25.785273 2025] [ssl:warn] [pid 6994] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:25.785306 2025] [suexec:notice] [pid 6994] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:25:25.801817 2025] [ssl:warn] [pid 6995] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:25.801834 2025] [ssl:warn] [pid 6995] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:25.801866 2025] [lbmethod_byrequests:emerg] [pid 6995] AH10152: mod_proxy must be loaded for mod_lbmethod_byrequests
+[Mon May 26 12:25:25.801868 2025] [:emerg] [pid 6995] AH00020: Configuration Failed, exiting
+[Mon May 26 12:25:53.493743 2025] [ssl:warn] [pid 7701] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:53.493776 2025] [ssl:warn] [pid 7701] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:53.493818 2025] [suexec:notice] [pid 7701] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:25:53.514299 2025] [ssl:warn] [pid 7702] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:25:53.514319 2025] [ssl:warn] [pid 7702] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:25:53.514386 2025] [lbmethod_heartbeat:notice] [pid 7702] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 12:25:53.555760 2025] [mpm_prefork:notice] [pid 7702] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 12:25:53.555802 2025] [core:notice] [pid 7702] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 12:26:05.074933 2025] [mpm_prefork:notice] [pid 7702] AH00169: caught SIGTERM, shutting down
+[Mon May 26 12:26:07.366909 2025] [ssl:warn] [pid 8366] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:26:07.366941 2025] [ssl:warn] [pid 8366] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:26:07.366982 2025] [suexec:notice] [pid 8366] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:26:07.388898 2025] [ssl:warn] [pid 8367] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:26:07.388918 2025] [ssl:warn] [pid 8367] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 26 12:26:07.388980 2025] [lbmethod_heartbeat:notice] [pid 8367] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 12:26:07.398346 2025] [mpm_prefork:notice] [pid 8367] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 12:26:07.398366 2025] [core:notice] [pid 8367] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 12:46:31.860094 2025] [mpm_prefork:notice] [pid 8367] AH00169: caught SIGTERM, shutting down
+[Mon May 26 12:46:35.200324 2025] [ssl:warn] [pid 19616] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:46:35.200467 2025] [ssl:warn] [pid 19616] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:46:35.200564 2025] [suexec:notice] [pid 19616] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:46:35.218651 2025] [ssl:warn] [pid 19617] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:46:35.218728 2025] [ssl:warn] [pid 19617] AH01906: localhost:443:1 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:46:35.218817 2025] [lbmethod_heartbeat:notice] [pid 19617] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 12:46:35.231657 2025] [mpm_prefork:notice] [pid 19617] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 12:46:35.231682 2025] [core:notice] [pid 19617] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 12:51:54.017199 2025] [mpm_prefork:notice] [pid 19617] AH00169: caught SIGTERM, shutting down
+[Mon May 26 12:51:56.338147 2025] [ssl:warn] [pid 22888] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:51:56.338345 2025] [suexec:notice] [pid 22888] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 12:51:56.359799 2025] [ssl:warn] [pid 22889] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 12:51:56.359883 2025] [lbmethod_heartbeat:notice] [pid 22889] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 12:51:56.371739 2025] [mpm_prefork:notice] [pid 22889] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 12:51:56.371769 2025] [core:notice] [pid 22889] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 13:43:58.402826 2025] [mpm_prefork:notice] [pid 22889] AH00169: caught SIGTERM, shutting down
+[Mon May 26 13:44:00.662637 2025] [ssl:warn] [pid 49582] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 13:44:00.662720 2025] [suexec:notice] [pid 49582] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 13:44:00.682288 2025] [ssl:warn] [pid 49583] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 13:44:00.682361 2025] [lbmethod_heartbeat:notice] [pid 49583] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 13:44:00.690846 2025] [mpm_prefork:notice] [pid 49583] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 13:44:00.690869 2025] [core:notice] [pid 49583] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Mon May 26 13:47:43.231705 2025] [ssl:warn] [pid 1956] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 13:47:43.232687 2025] [suexec:notice] [pid 1956] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Mon May 26 13:47:43.252321 2025] [ssl:warn] [pid 1957] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon May 26 13:47:43.252410 2025] [lbmethod_heartbeat:notice] [pid 1957] AH02282: No slotmem from mod_heartmonitor
+[Mon May 26 13:47:43.317757 2025] [mpm_prefork:notice] [pid 1957] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Mon May 26 13:47:43.317796 2025] [core:notice] [pid 1957] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Tue May 27 00:30:00.569055 2025] [ssl:warn] [pid 2349] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue May 27 00:30:00.569171 2025] [suexec:notice] [pid 2349] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Tue May 27 00:30:00.588914 2025] [ssl:warn] [pid 2350] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue May 27 00:30:00.588986 2025] [lbmethod_heartbeat:notice] [pid 2350] AH02282: No slotmem from mod_heartmonitor
+[Tue May 27 00:30:00.636917 2025] [mpm_prefork:notice] [pid 2350] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Tue May 27 00:30:00.636949 2025] [core:notice] [pid 2350] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Tue May 27 01:38:31.867502 2025] [ssl:warn] [pid 4822] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue May 27 01:38:31.867606 2025] [suexec:notice] [pid 4822] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Tue May 27 01:38:31.888111 2025] [ssl:warn] [pid 4823] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue May 27 01:38:31.888195 2025] [lbmethod_heartbeat:notice] [pid 4823] AH02282: No slotmem from mod_heartmonitor
+[Tue May 27 01:38:31.929720 2025] [mpm_prefork:notice] [pid 4823] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Tue May 27 01:38:31.929750 2025] [core:notice] [pid 4823] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Tue May 27 01:50:01.041598 2025] [autoindex:error] [pid 4898] [client 127.0.0.1:60482] AH01276: Cannot serve directory /opt/lampp/htdocs/directory_listing/: No matching DirectoryIndex (index.html,index.html.var,index.php,index.php3,index.php4) found, and server-generated directory index forbidden by Options directive
+[Wed May 28 08:13:30.746065 2025] [ssl:warn] [pid 2442] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 08:13:30.746169 2025] [suexec:notice] [pid 2442] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Wed May 28 08:13:30.767926 2025] [ssl:warn] [pid 2443] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 08:13:30.768003 2025] [lbmethod_heartbeat:notice] [pid 2443] AH02282: No slotmem from mod_heartmonitor
+[Wed May 28 08:13:30.806207 2025] [mpm_prefork:notice] [pid 2443] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Wed May 28 08:13:30.806232 2025] [core:notice] [pid 2443] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Wed May 28 09:43:52.567216 2025] [mpm_prefork:notice] [pid 2443] AH00169: caught SIGTERM, shutting down
+[Wed May 28 09:43:54.979481 2025] [ssl:warn] [pid 49965] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 09:43:54.980230 2025] [suexec:notice] [pid 49965] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Wed May 28 09:43:55.002429 2025] [ssl:warn] [pid 49966] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 09:43:55.002724 2025] [lbmethod_heartbeat:notice] [pid 49966] AH02282: No slotmem from mod_heartmonitor
+[Wed May 28 09:43:55.029825 2025] [mpm_prefork:notice] [pid 49966] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Wed May 28 09:43:55.029858 2025] [core:notice] [pid 49966] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Wed May 28 09:59:38.407695 2025] [mpm_prefork:notice] [pid 49966] AH00169: caught SIGTERM, shutting down
+[Wed May 28 09:59:41.798583 2025] [ssl:warn] [pid 58596] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 09:59:41.798731 2025] [suexec:notice] [pid 58596] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Wed May 28 09:59:41.822166 2025] [ssl:warn] [pid 58597] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 09:59:41.822283 2025] [lbmethod_heartbeat:notice] [pid 58597] AH02282: No slotmem from mod_heartmonitor
+[Wed May 28 09:59:41.832087 2025] [mpm_prefork:notice] [pid 58597] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Wed May 28 09:59:41.835093 2025] [core:notice] [pid 58597] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'
+[Wed May 28 10:03:37.317819 2025] [mpm_prefork:notice] [pid 58597] AH00169: caught SIGTERM, shutting down
+[Wed May 28 10:03:39.646666 2025] [ssl:warn] [pid 61126] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 10:03:39.646786 2025] [suexec:notice] [pid 61126] AH01232: suEXEC mechanism enabled (wrapper: /opt/lampp/bin/suexec)
+[Wed May 28 10:03:39.668339 2025] [ssl:warn] [pid 61127] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed May 28 10:03:39.668445 2025] [lbmethod_heartbeat:notice] [pid 61127] AH02282: No slotmem from mod_heartmonitor
+[Wed May 28 10:03:39.678868 2025] [mpm_prefork:notice] [pid 61127] AH00163: Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Wed May 28 10:03:39.678899 2025] [core:notice] [pid 61127] AH00094: Command line: '/opt/lampp/bin/httpd -E /opt/lampp/logs/error_log -D SSL -D PHP'

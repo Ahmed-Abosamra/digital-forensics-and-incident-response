@@ -1,0 +1,101 @@
+sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp stop
+sudo /opt/lampp/lampp restart
+INSERT INTO users (username, password) VALUES ('ahmed', 'ahmed');
+http://localhost/phpmyadmin
+cd /opt/lampp/htdocs/dfir/
+ps aux | grep httpd ----> user:daemon
+
+/opt/lampp/bin/mysql -u root -p
+
+phpmyadmin --->  myadminuser:PHPadminAhmed221010720$
+
+splunk: admin - aastadmin
+
+flag_{welcome_aast}   ---> ZmxhZ197d2VsY29tZV9hYXN0fQ==
+
+
+3.Deployment & Hardening
+
+1) Disable Directory Listing
+sudo nano /opt/lampp/etc/httpd.conf
+delete : Options Indexes FollowSymLinks
+
+2)
+sudo /opt/lampp/bin/apachectl -M
+
+sudo chown -R daemon:daemon /opt/lampp/htdocs
+sudo find /opt/lampp/htdocs -type f -exec chmod 644 {} \;
+sudo find /opt/lampp/htdocs -type d -exec chmod 755 {} \;
+
+
+CREATE USER 'webuser'@'localhost' IDENTIFIED BY 'f#9T@q!Z2&';
+GRANT SELECT ON bruteflag.* TO 'webuser'@'localhost';
+
+CREATE USER 'bruteuser'@'localhost' IDENTIFIED BY 'N4@vR8!pZq';
+GRANT SELECT ON bruteflag.* TO 'bruteuser'@'localhost';
+
+ssl/tls : 
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mysite.key -out mysite.crt
+sudo nano /opt/lampp/etc/extra/httpd-ssl.conf
+
+<VirtualHost _default_:443>
+DocumentRoot "/opt/lampp/htdocs"
+ServerName localhost:443
+SSLEngine on
+SSLCertificateFile "/opt/lampp/ssl/mysite.crt"
+SSLCertificateKeyFile "/opt/lampp/ssl/mysite.key"
+
+run splunk :
+	
+sudo /opt/splunk/bin/splunk start
+sudo /opt/splunkforwarder/bin/splunk start
+
+sudo /opt/splunkforwarder/bin/splunk add forward-server 192.168.179.153:9997 -auth admin:aastadmin
+
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/logs/php_requests.log
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/logs/access_log
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/logs/error_log
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/logs/php_error_log
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/logs/ssl_request_log
+sudo /opt/splunkforwarder/bin/splunk add monitor /opt/lampp/var/mysql/kali.err
+
+sudo nano /opt/splunkforwarder/etc/system/local/inputs.conf
+
+[monitor:///opt/lampp/logs/php_requests.log]
+index = web_logs
+sourcetype = php_requests
+
+[monitor:///opt/lampp/logs/access_log]
+index = web_logs
+sourcetype = access_combined
+
+[monitor:///opt/lampp/logs/error_log]
+index = web_logs
+sourcetype = error_log
+
+[monitor:///opt/lampp/logs/php_error_log]
+index = web_logs
+sourcetype = php_error
+
+[monitor:///opt/lampp/logs/ssl_request_log]
+index = web_logs
+sourcetype = ssl_request
+
+sudo /opt/splunkforwarder/bin/splunk restart
+
+sqli:
+1)aast2025adminpass##
+2)flag_{welcome_aast}
+
+bruteforce:
+3)flag{hello_ctf_world}
+
+at picture:
+4)flag_{b7x9-Klm2_8zPq-A9tR}
+
+at code:
+p1 at html : flag_p1{x9k2m1v
+p2 at css : flag_p2-> w0-q1r2}
+5)total : flag_p1{x9k2m1vw0-q1r2}
